@@ -14,4 +14,8 @@ class Contact {
   final String phone;
 
   Contact({required this.id, required this.name, required this.phone});
+
+  Contact copyWith({String? name, String? phone}) {
+    return Contact(id: id, name: name ?? this.name, phone: phone ?? this.phone);
+  }
 }

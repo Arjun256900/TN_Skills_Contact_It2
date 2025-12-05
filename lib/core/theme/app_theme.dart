@@ -6,7 +6,7 @@ final ThemeData kLightThemeMode = ThemeData(
   appBarTheme: AppBarTheme(elevation: 0, backgroundColor: Colors.transparent),
   inputDecorationTheme: InputDecorationTheme(
     filled: true,
-    fillColor: Color(0xFF1E1E1E),
+    fillColor: Colors.white,
     border: OutlineInputBorder(
       borderRadius: BorderRadius.circular(16),
       borderSide: BorderSide.none,
@@ -27,12 +27,12 @@ final ThemeData kLightThemeMode = ThemeData(
 );
 
 final ThemeData kDarkThemeMode = ThemeData(
-  brightness: Brightness.light,
+  brightness: Brightness.dark,
   scaffoldBackgroundColor: Color(0xFF121212),
   appBarTheme: AppBarTheme(elevation: 0, backgroundColor: Colors.transparent),
   inputDecorationTheme: InputDecorationTheme(
     filled: true,
-    fillColor: Colors.white,
+    fillColor: Color(0xFF1E1E1E),
     border: OutlineInputBorder(
       borderRadius: BorderRadius.circular(16),
       borderSide: BorderSide.none,
